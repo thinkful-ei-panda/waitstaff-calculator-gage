@@ -1,0 +1,32 @@
+body{
+    background-color: darkslategrey;
+    color: floralwhite;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+div{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    
+    margin: 5px;
+    padding: 5px;
+    width: fit-content;
+
+}
+
+h2{
+}
+
+div.meal-enter{
+    flex-direction: column;
+}
+
+div.meal-enter , .subtotal , .earnings{
+    border-radius: 4px;
+    border: solid black;
+}
+
